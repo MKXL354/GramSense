@@ -1,4 +1,4 @@
-package com.gramsense.ALL;
+package com.gramsense.analysis;
 
 /**
  * @author Mehdi Kamali
@@ -6,7 +6,7 @@ package com.gramsense.ALL;
  */
 public class GrammarAnalysisRequest {
 
-    public Long userId;
+    public long userId;
     public String text;
     public GrammarAnalysisType grammarAnalysisType;
 }

@@ -1,10 +1,10 @@
-package com.gramsense.ALL;
+package com.gramsense.analysis;
 
 /**
  * @author Mehdi Kamali
  * @since 09/12/2025
  */
-public class Correction {
+public class GrammarCorrection {
 
     public String incorrectText;
     public String correctText;

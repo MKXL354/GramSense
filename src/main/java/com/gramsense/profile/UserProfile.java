@@ -1,12 +1,12 @@
-package com.gramsense.ALL;
+package com.gramsense.profile;
 
 /**
  * @author Mehdi Kamali
  * @since 09/12/2025
  */
-public class User {
+public class UserProfile {
 
     public Long id;
     public String username;
-    public Profile profile;
+    public CEFRLevel cefrLevel;
 }

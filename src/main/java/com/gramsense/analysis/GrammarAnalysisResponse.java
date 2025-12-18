@@ -1,4 +1,4 @@
-package com.gramsense.ALL;
+package com.gramsense.analysis;
 
 import java.util.List;
 

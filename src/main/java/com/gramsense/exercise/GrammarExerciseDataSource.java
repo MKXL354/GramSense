@@ -1,16 +1,16 @@
-package com.gramsense.ALL;
+package com.gramsense.exercise;
 
 /**
  * @author Mehdi Kamali
  * @since 09/12/2025
  */
-public class UserProfileDataSourceProvider {
+public class GrammarExerciseDataSource {
 
-    public Profile getUserProfile(Long userId){
+    public void saveExercise(GrammarExercise grammarExercise) {
         throw new UnsupportedOperationException("not supported yet.");
     }
 
-    public void updateUserProfile(Profile profile){
+    public GrammarExercise getExercise(long exerciseId) {
         throw new UnsupportedOperationException("not supported yet.");
     }
 }

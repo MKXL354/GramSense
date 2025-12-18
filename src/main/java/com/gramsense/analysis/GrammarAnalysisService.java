@@ -1,4 +1,4 @@
-package com.gramsense.ALL;
+package com.gramsense.analysis;
 
 /**
  * @author Mehdi Kamali
@@ -6,10 +6,10 @@ package com.gramsense.ALL;
  */
 public class GrammarAnalysisService {
 
-    public GrammarAnalysisDataSourceProvider grammarAnalysisDataSourceProvider;
+    public GrammarAnalysisDataSource grammarAnalysisDataSource;
     public GrammarAnalysisProvider grammarAnalysisProvider;
 
-    public GrammarAnalysisResponse analyze(GrammarAnalysisRequest grammarAnalysisRequest) {
+    public GrammarAnalysisResponse getGrammarAnalysis(GrammarAnalysisRequest grammarAnalysisRequest) {
         throw new UnsupportedOperationException("not supported yet.");
     }
 }
