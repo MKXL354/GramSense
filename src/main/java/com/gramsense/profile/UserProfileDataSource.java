@@ -14,7 +14,11 @@ public class UserProfileDataSource {
         throw new UnsupportedOperationException("not supported yet.");
     }
 
-    public UserProgressResponse getUserProgress(UserProgressRequest userProgressRequest) {
+    public UserProgress getUserProgress(UserProgressRequest userProgressRequest) {
+        throw new UnsupportedOperationException("not supported yet.");
+    }
+
+    public void updateUserProgress(UserProgress userProgress) {
         throw new UnsupportedOperationException("not supported yet.");
     }
 

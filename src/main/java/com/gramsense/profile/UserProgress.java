@@ -1,7 +1,8 @@
 package com.gramsense.profile;
 
-import java.math.BigDecimal;
-import java.time.LocalDate;
+import com.gramsense.exercise.GrammarType;
+
+import java.util.List;
 
 /**
  * @author Mehdi Kamali
@@ -9,6 +10,6 @@ import java.time.LocalDate;
  */
 public class UserProgress {
 
-    public LocalDate date;
-    public BigDecimal mastery;
+    public GrammarType grammarType;
+    public List<UserProgressDetail> detail;
 }

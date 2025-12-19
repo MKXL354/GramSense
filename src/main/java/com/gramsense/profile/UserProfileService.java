@@ -15,7 +15,7 @@ public class UserProfileService {
         throw new UnsupportedOperationException("not supported yet.");
     }
 
-    public UserProgressResponse getUserProgress(UserProgressRequest userProgressRequest) {
+    public UserProgress getUserProgress(UserProgressRequest userProgressRequest) {
         throw new UnsupportedOperationException("not supported yet.");
     }
 

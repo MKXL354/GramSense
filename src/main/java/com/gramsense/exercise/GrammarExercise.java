@@ -11,5 +11,5 @@ public class GrammarExercise {
     public long exerciseId;
     public GrammarType grammarType;
     public GrammarExerciseType exerciseType;
-    public CEFRLevel CEFRLevel;
+    public CEFRLevel cefrLevel;
 }
