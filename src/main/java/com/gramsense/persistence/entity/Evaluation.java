@@ -31,12 +31,15 @@ public class Evaluation {
     private GrammarUser grammarUser;
 
     @Column(name = "grammar_topic", length = 50)
+    @Enumerated(EnumType.STRING)
     private GrammarTopic grammarTopic;
 
     @Column(name = "detected_grammar_level", length = 25)
+    @Enumerated(EnumType.STRING)
     private GrammarLevel detectedGrammarLevel;
 
     @Column(name = "evaluation_type", nullable = false, length = 10)
+    @Enumerated(EnumType.STRING)
     private EvaluationType evaluationType;
 
     @Column(name = "original_sentence", nullable = false, columnDefinition = "TEXT")

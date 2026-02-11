@@ -1,6 +1,8 @@
 package com.gramsense.persistence.entity;
 
 import jakarta.persistence.*;
+import lombok.Getter;
+import lombok.Setter;
 import org.hibernate.annotations.CreationTimestamp;
 
 import java.time.LocalDateTime;
@@ -10,6 +12,8 @@ import java.time.LocalDateTime;
  * @since 11/02/2026
  */
 
+@Getter
+@Setter
 @Entity
 @Table(name = "user_exercise_history")
 public class UserExerciseHistory {

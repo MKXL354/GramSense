@@ -26,9 +26,11 @@ public class Example {
     private Long id;
 
     @Column(name = "grammar_topic", nullable = false, length = 50)
+    @Enumerated(EnumType.STRING)
     private GrammarTopic grammarTopic;
 
     @Column(name = "grammar_level", nullable = false, length = 25)
+    @Enumerated(EnumType.STRING)
     private GrammarLevel grammarLevel;
 
     @Column(name = "sentence", nullable = false, columnDefinition = "TEXT")

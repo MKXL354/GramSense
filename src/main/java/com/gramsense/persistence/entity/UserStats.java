@@ -3,6 +3,8 @@ package com.gramsense.persistence.entity;
 import com.gramsense.persistence.entity.enumeration.GrammarLevel;
 import com.gramsense.persistence.entity.enumeration.GrammarTopic;
 import jakarta.persistence.*;
+import lombok.Getter;
+import lombok.Setter;
 
 import java.time.LocalDateTime;
 
@@ -11,6 +13,8 @@ import java.time.LocalDateTime;
  * @since 11/02/2026
  */
 
+@Getter
+@Setter
 @Entity
 @Table(name = "user_stats")
 public class UserStats {
@@ -25,9 +29,11 @@ public class UserStats {
     private GrammarUser grammarUser;
 
     @Column(name = "grammar_topic", nullable = false, length = 50)
+    @Enumerated(EnumType.STRING)
     private GrammarTopic grammarTopic;
 
     @Column(name = "grammar_level", nullable = false, length = 25)
+    @Enumerated(EnumType.STRING)
     private GrammarLevel grammarLevel;
 
     @Column(name = "total_sent_evaluations")

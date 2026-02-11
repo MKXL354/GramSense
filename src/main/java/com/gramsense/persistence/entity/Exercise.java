@@ -27,12 +27,15 @@ public class Exercise {
     private Long id;
 
     @Column(name = "grammar_topic", nullable = false, length = 50)
+    @Enumerated(EnumType.STRING)
     private GrammarTopic grammarTopic;
 
     @Column(name = "exercise_type", nullable = false, length = 25)
+    @Enumerated(EnumType.STRING)
     private ExerciseType exerciseType;
 
     @Column(name = "grammar_level", nullable = false, length = 25)
+    @Enumerated(EnumType.STRING)
     private GrammarLevel grammarLevel;
 
     @Column(name = "question", nullable = false, columnDefinition = "TEXT")
