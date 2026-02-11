@@ -17,6 +17,7 @@ import com.gramsense.persistence.repository.ExerciseRepository;
 import com.gramsense.persistence.repository.GrammarUserRepository;
 import com.gramsense.persistence.repository.UserExerciseHistoryRepository;
 import com.gramsense.persistence.repository.UserStatsRepository;
+import jakarta.validation.Valid;
 import jakarta.validation.constraints.NotNull;
 import lombok.RequiredArgsConstructor;
 import org.springframework.transaction.annotation.Transactional;
@@ -54,7 +55,7 @@ public class ExerciseController {
 
     @PostMapping("/answer")
     @Transactional
-    public ExerciseAnswerResponseDto submitAnswers(@RequestBody ExerciseAnswerRequestDto requestDto) {
+    public ExerciseAnswerResponseDto submitAnswers(@Valid @RequestBody ExerciseAnswerRequestDto requestDto) {
         ExerciseAnswerResponseDto responseDto = new ExerciseAnswerResponseDto();
         List<ExerciseAnswerDto> answers = requestDto.getAnswers();
         if (CollectionUtils.isEmpty(answers)) {

@@ -10,10 +10,10 @@ import lombok.Setter;
  */
 @Getter
 @Setter
-public class ExerciseAnswerDto {
+public class LoginRequestDto {
 
     @NotNull
-    private Long exerciseId;
+    private String username;
     @NotNull
-    private String answer;
+    private String password;
 }

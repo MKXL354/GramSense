@@ -15,6 +15,5 @@ import org.springframework.web.context.annotation.RequestScope;
 @Component
 public class RequestContext {
 
-    //    TODO: fix this and add real auth
-    private Long userId = 1L;
+    private Long userId;
 }
