@@ -1,4 +1,4 @@
-package com.gramsense.util;
+package com.gramsense.api.service;
 
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.security.Keys;

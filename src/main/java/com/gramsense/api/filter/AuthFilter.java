@@ -1,7 +1,7 @@
 package com.gramsense.api.filter;
 
 import com.gramsense.api.model.RequestContext;
-import com.gramsense.util.JwtService;
+import com.gramsense.api.service.JwtService;
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;
@@ -53,7 +53,7 @@ public class AuthFilter extends OncePerRequestFilter {
             return;
         }
 
-        Long userId;
+        long userId;
         if (userIdRaw instanceof Number) {
             userId = ((Number) userIdRaw).longValue();
         } else {
