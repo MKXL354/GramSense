@@ -1,5 +1,6 @@
 package com.gramsense.api.model.response;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -12,6 +13,7 @@ import lombok.Setter;
 public class ExerciseAnswerResponse {
 
     private long exerciseId;
-    private boolean isCorrect;
+    @JsonProperty("isCorrect")
+    private boolean correct;
     private String correctAnswer;
 }

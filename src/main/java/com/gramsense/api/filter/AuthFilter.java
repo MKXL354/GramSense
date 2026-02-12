@@ -26,7 +26,11 @@ public class AuthFilter extends OncePerRequestFilter {
 
     @Override
     protected boolean shouldNotFilter(HttpServletRequest request) {
-        return "/api/users/login".equals(request.getRequestURI());
+        String uri = request.getRequestURI();
+        String method = request.getMethod();
+        return "/api/users/login".equals(uri)
+                || "/api/users/register".equals(uri)
+                || "OPTIONS".equalsIgnoreCase(method);
     }
 
     @Override

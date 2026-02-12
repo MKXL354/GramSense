@@ -19,7 +19,6 @@ INSERT INTO examples (grammar_topic, grammar_level, sentence, explanation) VALUE
  'Adverbs of frequency are commonly used with the present simple.');
 
 -- 3. Add exercises (9 total)
-
 INSERT INTO exercises
 (grammar_topic, exercise_type, grammar_level, question, correct_answer, options)
 VALUES
@@ -27,49 +26,49 @@ VALUES
 -- EASY
 ('PRESENT_SIMPLE', 'FILL_BLANK', 'EASY',
  'She ___ to school every day',
- 'She goes to school every day',
- '["go", "goes"]'),
+ 'goes',
+ '["go", "goes", "goed"]'),
 
 ('PRESENT_SIMPLE', 'MULTIPLE_CHOICE', 'EASY',
- 'He ___ coffee every morning',
- 'He drinks coffee every morning',
+ 'What is the present simple form of drink?',
+ 'drinks',
  '["drink", "drinks", "drinking"]'),
 
 ('PRESENT_SIMPLE', 'FULL_SENTENCE', 'EASY',
  'Write a correct sentence using she like apples',
  'She likes apples',
- '["she", "like", "apples"]'),
+ '["likes", "She", "apples"]'),
 
 -- MEDIUM
 ('PRESENT_SIMPLE', 'FILL_BLANK', 'MEDIUM',
  'They ___ TV after dinner',
- 'They watch TV after dinner',
- '["watch", "watches"]'),
+ 'watch',
+ '["watch", "watching", "watches"]'),
 
 ('PRESENT_SIMPLE', 'MULTIPLE_CHOICE', 'MEDIUM',
- 'We ___ to work by bus',
+ 'Choose the correct sentence',
  'We go to work by bus',
- '["go", "goes", "going"]'),
+ '["We go to work by bus", "We goes to work by bus", "We going to work by bus"]'),
 
 ('PRESENT_SIMPLE', 'FULL_SENTENCE', 'MEDIUM',
- 'Write a sentence using he not play chess',
+ 'Write a sentence using these words:',
  'He does not play chess',
- '["he", "not", "play", "chess"]'),
+ '["He", "not", "does", "chess", "play"]'),
 
 -- HARD
 ('PRESENT_SIMPLE', 'FILL_BLANK', 'HARD',
  'She usually ___ up at 6 am',
- 'She usually wakes up at 6 am',
- '["wake", "wakes"]'),
+ 'wakes',
+ '["wake", "waking", "wakes"]'),
 
 ('PRESENT_SIMPLE', 'MULTIPLE_CHOICE', 'HARD',
- 'How often ___ he travel abroad',
- 'How often does he travel abroad',
- '["do", "does", "is"]'),
+ 'Choose the correct form of the verb: How often ___ he travel abroad',
+ 'does',
+ '["do", "does", "is", "has"]'),
 
 ('PRESENT_SIMPLE', 'FULL_SENTENCE', 'HARD',
- 'Write a sentence using they rarely eat meat',
+ 'Write a sentence using these words:',
  'They rarely eat meat',
- '["they", "rarely", "eat", "meat"]');
+ '["They", "meat", "eat", "rarely"]');
 
 COMMIT;
