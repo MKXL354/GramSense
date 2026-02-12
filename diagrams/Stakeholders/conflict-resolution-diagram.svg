@@ -1,0 +1,517 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" type="text/css"?>
+<svg id="graph-751" width="100%" xmlns="http://www.w3.org/2000/svg" class="flowchart"
+     style="overflow: hidden; max-width: 100%; touch-action: none; user-select: none; -webkit-user-drag: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); background-color: rgb(2, 8, 23);"
+     role="graphics-document document" aria-roledescription="flowchart-v2" height="100%"
+>
+    <g id="viewport-20260212090020444" class="svg-pan-zoom_viewport"
+       transform="matrix(0.511719529290268,0,0,0.511719529290268,34.95189321675826,16.19153895410092)"
+       style="transform: matrix(0.51172, 0, 0, 0.51172, 34.9519, 16.1915);">
+        <style>#graph-751{font-family:"trebuchet ms",verdana,arial,sans-serif;font-size:16px;fill:#ccc;}@keyframes
+            edge-animation-frame{from{stroke-dashoffset:0;}}@keyframes dash{to{stroke-dashoffset:0;}}#graph-751
+            .edge-animation-slow{stroke-dasharray:9,5!important;stroke-dashoffset:900;animation:dash 50s linear
+            infinite;stroke-linecap:round;}#graph-751
+            .edge-animation-fast{stroke-dasharray:9,5!important;stroke-dashoffset:900;animation:dash 20s linear
+            infinite;stroke-linecap:round;}#graph-751 .error-icon{fill:#a44141;}#graph-751
+            .error-text{fill:#ddd;stroke:#ddd;}#graph-751 .edge-thickness-normal{stroke-width:1px;}#graph-751
+            .edge-thickness-thick{stroke-width:3.5px;}#graph-751 .edge-pattern-solid{stroke-dasharray:0;}#graph-751
+            .edge-thickness-invisible{stroke-width:0;fill:none;}#graph-751
+            .edge-pattern-dashed{stroke-dasharray:3;}#graph-751 .edge-pattern-dotted{stroke-dasharray:2;}#graph-751
+            .marker{fill:lightgrey;stroke:lightgrey;}#graph-751 .marker.cross{stroke:lightgrey;}#graph-751
+            svg{font-family:"trebuchet ms",verdana,arial,sans-serif;font-size:16px;}#graph-751 p{margin:0;}#graph-751
+            .label{font-family:"trebuchet ms",verdana,arial,sans-serif;color:#ccc;}#graph-751 .cluster-label
+            text{fill:#F9FFFE;}#graph-751 .cluster-label span{color:#F9FFFE;}#graph-751 .cluster-label span
+            p{background-color:transparent;}#graph-751 .label text,#graph-751 span{fill:#ccc;color:#ccc;}#graph-751
+            .node rect,#graph-751 .node circle,#graph-751 .node ellipse,#graph-751 .node polygon,#graph-751 .node
+            path{fill:#1f2020;stroke:#ccc;stroke-width:1px;}#graph-751 .rough-node .label text,#graph-751 .node .label
+            text,#graph-751 .image-shape .label,#graph-751 .icon-shape .label{text-anchor:middle;}#graph-751 .node
+            .katex path{fill:#000;stroke:#000;stroke-width:1px;}#graph-751 .rough-node .label,#graph-751 .node
+            .label,#graph-751 .image-shape .label,#graph-751 .icon-shape .label{text-align:center;}#graph-751
+            .node.clickable{cursor:pointer;}#graph-751 .root .anchor
+            path{fill:lightgrey!important;stroke-width:0;stroke:lightgrey;}#graph-751
+            .arrowheadPath{fill:lightgrey;}#graph-751 .edgePath .path{stroke:lightgrey;stroke-width:2.0px;}#graph-751
+            .flowchart-link{stroke:lightgrey;fill:none;}#graph-751 .edgeLabel{background-color:hsl(0, 0%,
+            34.4117647059%);text-align:center;}#graph-751 .edgeLabel p{background-color:hsl(0, 0%,
+            34.4117647059%);}#graph-751 .edgeLabel rect{opacity:0.5;background-color:hsl(0, 0%,
+            34.4117647059%);fill:hsl(0, 0%, 34.4117647059%);}#graph-751 .labelBkg{background-color:rgba(87.75, 87.75,
+            87.75, 0.5);}#graph-751 .cluster rect{fill:hsl(180, 1.5873015873%, 28.3529411765%);stroke:rgba(255, 255,
+            255, 0.25);stroke-width:1px;}#graph-751 .cluster text{fill:#F9FFFE;}#graph-751 .cluster
+            span{color:#F9FFFE;}#graph-751
+            div.mermaidTooltip{position:absolute;text-align:center;max-width:200px;padding:2px;font-family:"trebuchet
+            ms",verdana,arial,sans-serif;font-size:12px;background:hsl(20, 1.5873015873%, 12.3529411765%);border:1px
+            solid rgba(255, 255, 255, 0.25);border-radius:2px;pointer-events:none;z-index:100;}#graph-751
+            .flowchartTitleText{text-anchor:middle;font-size:18px;fill:#ccc;}#graph-751
+            rect.text{fill:none;stroke-width:0;}#graph-751 .icon-shape,#graph-751 .image-shape{background-color:hsl(0,
+            0%, 34.4117647059%);text-align:center;}#graph-751 .icon-shape p,#graph-751 .image-shape
+            p{background-color:hsl(0, 0%, 34.4117647059%);padding:2px;}#graph-751 .icon-shape rect,#graph-751
+            .image-shape rect{opacity:0.5;background-color:hsl(0, 0%, 34.4117647059%);fill:hsl(0, 0%,
+            34.4117647059%);}#graph-751
+            .label-icon{display:inline-block;height:1em;overflow:visible;vertical-align:-0.125em;}#graph-751 .node
+            .label-icon path{fill:currentColor;stroke:revert;stroke-width:revert;}#graph-751
+            :root{--mermaid-font-family:"trebuchet ms",verdana,arial,sans-serif;}#graph-751 .conflict&gt;*{fill:#ffcdd2!important;stroke:#c62828!important;stroke-width:2px!important;color:black!important;}#graph-751
+            .conflict
+            span{fill:#ffcdd2!important;stroke:#c62828!important;stroke-width:2px!important;color:black!important;}#graph-751
+            .conflict tspan{fill:black!important;}#graph-751 .solution&gt;*{fill:#c8e6c9!important;stroke:#2e7d32!important;stroke-width:2px!important;color:black!important;}#graph-751
+            .solution
+            span{fill:#c8e6c9!important;stroke:#2e7d32!important;stroke-width:2px!important;color:black!important;}#graph-751
+            .solution tspan{fill:black!important;}#graph-751 .note&gt;*{fill:#fff9c4!important;stroke:#fbc02d!important;stroke-dasharray:5
+            5!important;color:black!important;}#graph-751 .note
+            span{fill:#fff9c4!important;stroke:#fbc02d!important;stroke-dasharray:5
+            5!important;color:black!important;}#graph-751 .note tspan{fill:black!important;}
+        </style>
+        <g>
+            <marker id="graph-751_flowchart-v2-pointEnd" class="marker flowchart-v2" viewBox="0 0 10 10" refX="5"
+                    refY="5" markerUnits="userSpaceOnUse" markerWidth="8" markerHeight="8" orient="auto">
+                <path d="M 0 0 L 10 5 L 0 10 z" class="arrowMarkerPath"
+                      style="stroke-width: 1; stroke-dasharray: 1, 0;"></path>
+            </marker>
+            <marker id="graph-751_flowchart-v2-pointStart" class="marker flowchart-v2" viewBox="0 0 10 10" refX="4.5"
+                    refY="5" markerUnits="userSpaceOnUse" markerWidth="8" markerHeight="8" orient="auto">
+                <path d="M 0 5 L 10 10 L 10 0 z" class="arrowMarkerPath"
+                      style="stroke-width: 1; stroke-dasharray: 1, 0;"></path>
+            </marker>
+            <marker id="graph-751_flowchart-v2-circleEnd" class="marker flowchart-v2" viewBox="0 0 10 10" refX="11"
+                    refY="5" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto">
+                <circle cx="5" cy="5" r="5" class="arrowMarkerPath"
+                        style="stroke-width: 1; stroke-dasharray: 1, 0;"></circle>
+            </marker>
+            <marker id="graph-751_flowchart-v2-circleStart" class="marker flowchart-v2" viewBox="0 0 10 10" refX="-1"
+                    refY="5" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto">
+                <circle cx="5" cy="5" r="5" class="arrowMarkerPath"
+                        style="stroke-width: 1; stroke-dasharray: 1, 0;"></circle>
+            </marker>
+            <marker id="graph-751_flowchart-v2-crossEnd" class="marker cross flowchart-v2" viewBox="0 0 11 11" refX="12"
+                    refY="5.2" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto">
+                <path d="M 1,1 l 9,9 M 10,1 l -9,9" class="arrowMarkerPath"
+                      style="stroke-width: 2; stroke-dasharray: 1, 0;"></path>
+            </marker>
+            <marker id="graph-751_flowchart-v2-crossStart" class="marker cross flowchart-v2" viewBox="0 0 11 11"
+                    refX="-1" refY="5.2" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto">
+                <path d="M 1,1 l 9,9 M 10,1 l -9,9" class="arrowMarkerPath"
+                      style="stroke-width: 2; stroke-dasharray: 1, 0;"></path>
+            </marker>
+            <g class="root">
+                <g class="clusters">
+                    <g class="cluster" id="subGraph1" data-look="classic">
+                        <rect style="" x="8" y="330" width="1570" height="248"></rect>
+                        <g class="cluster-label" transform="translate(703.125, 330)">
+                            <foreignObject width="179.75" height="24">
+                                <div xmlns="http://www.w3.org/1999/xhtml"
+                                     style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;">
+                                    <span class="nodeLabel">
+                                        <p>Architectural Resolutions</p>
+                                    </span>
+                                </div>
+                            </foreignObject>
+                        </g>
+                    </g>
+                    <g class="cluster" id="subGraph0" data-look="classic">
+                        <rect style="" x="8" y="8" width="1570" height="248"></rect>
+                        <g class="cluster-label" transform="translate(714.015625, 8)">
+                            <foreignObject width="157.96875" height="24">
+                                <div xmlns="http://www.w3.org/1999/xhtml"
+                                     style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;">
+                                    <span class="nodeLabel">
+                                        <p>Conflict Identification</p>
+                                    </span>
+                                </div>
+                            </foreignObject>
+                        </g>
+                    </g>
+                </g>
+                <g class="edgePaths">
+                    <path d="M173,231L173,235.167C173,239.333,173,247.667,173,258C173,268.333,173,280.667,173,293C173,305.333,173,317.667,173,331.333C173,345,173,360,173,367.5L173,375"
+                          id="L_C01_D01_0"
+                          class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link"
+                          style=";" data-edge="true" data-et="edge" data-id="L_C01_D01_0"
+                          data-points="W3sieCI6MTczLCJ5IjoyMzF9LHsieCI6MTczLCJ5IjoyNTZ9LHsieCI6MTczLCJ5IjoyOTN9LHsieCI6MTczLCJ5IjozMzB9LHsieCI6MTczLCJ5IjozNzl9XQ=="
+                          marker-end="url(#graph-751_flowchart-v2-pointEnd)"></path>
+                    <path d="M483,231L483,235.167C483,239.333,483,247.667,483,258C483,268.333,483,280.667,483,293C483,305.333,483,317.667,483,329.333C483,341,483,352,483,357.5L483,363"
+                          id="L_C02_D02_0"
+                          class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link"
+                          style=";" data-edge="true" data-et="edge" data-id="L_C02_D02_0"
+                          data-points="W3sieCI6NDgzLCJ5IjoyMzF9LHsieCI6NDgzLCJ5IjoyNTZ9LHsieCI6NDgzLCJ5IjoyOTN9LHsieCI6NDgzLCJ5IjozMzB9LHsieCI6NDgzLCJ5IjozNjd9XQ=="
+                          marker-end="url(#graph-751_flowchart-v2-pointEnd)"></path>
+                    <path d="M793,231L793,235.167C793,239.333,793,247.667,793,258C793,268.333,793,280.667,793,293C793,305.333,793,317.667,793,329.333C793,341,793,352,793,357.5L793,363"
+                          id="L_C03_D03_0"
+                          class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link"
+                          style=";" data-edge="true" data-et="edge" data-id="L_C03_D03_0"
+                          data-points="W3sieCI6NzkzLCJ5IjoyMzF9LHsieCI6NzkzLCJ5IjoyNTZ9LHsieCI6NzkzLCJ5IjoyOTN9LHsieCI6NzkzLCJ5IjozMzB9LHsieCI6NzkzLCJ5IjozNjd9XQ=="
+                          marker-end="url(#graph-751_flowchart-v2-pointEnd)"></path>
+                    <path d="M1103,207L1103,215.167C1103,223.333,1103,239.667,1103,254C1103,268.333,1103,280.667,1103,293C1103,305.333,1103,317.667,1103,327.333C1103,337,1103,344,1103,347.5L1103,351"
+                          id="L_C04_D04_0"
+                          class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link"
+                          style=";" data-edge="true" data-et="edge" data-id="L_C04_D04_0"
+                          data-points="W3sieCI6MTEwMywieSI6MjA3fSx7IngiOjExMDMsInkiOjI1Nn0seyJ4IjoxMTAzLCJ5IjoyOTN9LHsieCI6MTEwMywieSI6MzMwfSx7IngiOjExMDMsInkiOjM1NX1d"
+                          marker-end="url(#graph-751_flowchart-v2-pointEnd)"></path>
+                    <path d="M1413,231L1413,235.167C1413,239.333,1413,247.667,1413,258C1413,268.333,1413,280.667,1413,293C1413,305.333,1413,317.667,1413,331.333C1413,345,1413,360,1413,367.5L1413,375"
+                          id="L_C05_D05_0"
+                          class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link"
+                          style=";" data-edge="true" data-et="edge" data-id="L_C05_D05_0"
+                          data-points="W3sieCI6MTQxMywieSI6MjMxfSx7IngiOjE0MTMsInkiOjI1Nn0seyJ4IjoxNDEzLCJ5IjoyOTN9LHsieCI6MTQxMywieSI6MzMwfSx7IngiOjE0MTMsInkiOjM3OX1d"
+                          marker-end="url(#graph-751_flowchart-v2-pointEnd)"></path>
+                    <path d="M173,529L173,537.167C173,545.333,173,561.667,173,574C173,586.333,173,594.667,173,605C173,615.333,173,627.667,173,633.833L173,640"
+                          id="L_D01_N1_0"
+                          class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link"
+                          style=";" data-edge="true" data-et="edge" data-id="L_D01_N1_0"
+                          data-points="W3sieCI6MTczLCJ5Ijo1Mjl9LHsieCI6MTczLCJ5Ijo1Nzh9LHsieCI6MTczLCJ5Ijo2MDN9LHsieCI6MTczLCJ5Ijo2NDB9XQ=="></path>
+                    <path d="M483,541L483,547.167C483,553.333,483,565.667,483,576C483,586.333,483,594.667,483,603C483,611.333,483,619.667,483,623.833L483,628"
+                          id="L_D02_N2_0"
+                          class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link"
+                          style=";" data-edge="true" data-et="edge" data-id="L_D02_N2_0"
+                          data-points="W3sieCI6NDgzLCJ5Ijo1NDF9LHsieCI6NDgzLCJ5Ijo1Nzh9LHsieCI6NDgzLCJ5Ijo2MDN9LHsieCI6NDgzLCJ5Ijo2Mjh9XQ=="></path>
+                    <path d="M793,541L793,547.167C793,553.333,793,565.667,793,576C793,586.333,793,594.667,793,605C793,615.333,793,627.667,793,633.833L793,640"
+                          id="L_D03_N3_0"
+                          class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link"
+                          style=";" data-edge="true" data-et="edge" data-id="L_D03_N3_0"
+                          data-points="W3sieCI6NzkzLCJ5Ijo1NDF9LHsieCI6NzkzLCJ5Ijo1Nzh9LHsieCI6NzkzLCJ5Ijo2MDN9LHsieCI6NzkzLCJ5Ijo2NDB9XQ=="></path>
+                </g>
+                <g class="edgeLabels">
+                    <g class="edgeLabel" transform="translate(173, 293)">
+                        <g class="label" data-id="L_C01_D01_0" transform="translate(-30.109375, -12)">
+                            <foreignObject width="60.21875" height="24">
+                                <div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg"
+                                     style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;">
+                                    <span class="edgeLabel">
+                                        <p>Resolves</p>
+                                    </span>
+                                </div>
+                            </foreignObject>
+                        </g>
+                    </g>
+                    <g class="edgeLabel" transform="translate(483, 293)">
+                        <g class="label" data-id="L_C02_D02_0" transform="translate(-30.109375, -12)">
+                            <foreignObject width="60.21875" height="24">
+                                <div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg"
+                                     style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;">
+                                    <span class="edgeLabel">
+                                        <p>Resolves</p>
+                                    </span>
+                                </div>
+                            </foreignObject>
+                        </g>
+                    </g>
+                    <g class="edgeLabel" transform="translate(793, 293)">
+                        <g class="label" data-id="L_C03_D03_0" transform="translate(-30.109375, -12)">
+                            <foreignObject width="60.21875" height="24">
+                                <div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg"
+                                     style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;">
+                                    <span class="edgeLabel">
+                                        <p>Resolves</p>
+                                    </span>
+                                </div>
+                            </foreignObject>
+                        </g>
+                    </g>
+                    <g class="edgeLabel" transform="translate(1103, 293)">
+                        <g class="label" data-id="L_C04_D04_0" transform="translate(-30.109375, -12)">
+                            <foreignObject width="60.21875" height="24">
+                                <div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg"
+                                     style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;">
+                                    <span class="edgeLabel">
+                                        <p>Resolves</p>
+                                    </span>
+                                </div>
+                            </foreignObject>
+                        </g>
+                    </g>
+                    <g class="edgeLabel" transform="translate(1413, 293)">
+                        <g class="label" data-id="L_C05_D05_0" transform="translate(-30.109375, -12)">
+                            <foreignObject width="60.21875" height="24">
+                                <div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg"
+                                     style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;">
+                                    <span class="edgeLabel">
+                                        <p>Resolves</p>
+                                    </span>
+                                </div>
+                            </foreignObject>
+                        </g>
+                    </g>
+                    <g class="edgeLabel">
+                        <g class="label" data-id="L_D01_N1_0" transform="translate(0, 0)">
+                            <foreignObject width="0" height="0">
+                                <div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg"
+                                     style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;">
+                                    <span class="edgeLabel"></span>
+                                </div>
+                            </foreignObject>
+                        </g>
+                    </g>
+                    <g class="edgeLabel">
+                        <g class="label" data-id="L_D02_N2_0" transform="translate(0, 0)">
+                            <foreignObject width="0" height="0">
+                                <div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg"
+                                     style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;">
+                                    <span class="edgeLabel"></span>
+                                </div>
+                            </foreignObject>
+                        </g>
+                    </g>
+                    <g class="edgeLabel">
+                        <g class="label" data-id="L_D03_N3_0" transform="translate(0, 0)">
+                            <foreignObject width="0" height="0">
+                                <div xmlns="http://www.w3.org/1999/xhtml" class="labelBkg"
+                                     style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;">
+                                    <span class="edgeLabel"></span>
+                                </div>
+                            </foreignObject>
+                        </g>
+                    </g>
+                </g>
+                <g class="nodes">
+                    <g class="node default conflict" id="flowchart-C01-0" transform="translate(173, 132)">
+                        <rect class="basic label-container"
+                              style="fill:#ffcdd2 !important;stroke:#c62828 !important;stroke-width:2px !important"
+                              x="-130" y="-99" width="260" height="198"></rect>
+                        <g class="label" style="color:black !important" transform="translate(-100, -84)">
+                            <rect></rect>
+                            <foreignObject width="200" height="168">
+                                <div style="color: black !important; display: table; white-space: break-spaces; line-height: 1.5; max-width: 200px; text-align: center; width: 200px;"
+                                     xmlns="http://www.w3.org/1999/xhtml">
+                                    <span style="color:black !important" class="nodeLabel">
+                                        <p>
+                                            <b>C-01: Retention vs. Repetition</b>
+                                            <br/>User needs practice on specific topics<br/>vs.<br/>System must not show
+                                            duplicates (Boredom)
+                                        </p>
+                                    </span>
+                                </div>
+                            </foreignObject>
+                        </g>
+                    </g>
+                    <g class="node default conflict" id="flowchart-C02-1" transform="translate(483, 132)">
+                        <rect class="basic label-container"
+                              style="fill:#ffcdd2 !important;stroke:#c62828 !important;stroke-width:2px !important"
+                              x="-130" y="-99" width="260" height="198"></rect>
+                        <g class="label" style="color:black !important" transform="translate(-100, -84)">
+                            <rect></rect>
+                            <foreignObject width="200" height="168">
+                                <div style="color: black !important; display: table; white-space: break-spaces; line-height: 1.5; max-width: 200px; text-align: center; width: 200px;"
+                                     xmlns="http://www.w3.org/1999/xhtml">
+                                    <span style="color:black !important" class="nodeLabel">
+                                        <p>
+                                            <b>C-02: Correction vs. Comprehension</b>
+                                            <br/>User just wants the sentence fixed<br/>vs.<br/>Business Goal is
+                                            learning/retention
+                                        </p>
+                                    </span>
+                                </div>
+                            </foreignObject>
+                        </g>
+                    </g>
+                    <g class="node default conflict" id="flowchart-C03-2" transform="translate(793, 132)">
+                        <rect class="basic label-container"
+                              style="fill:#ffcdd2 !important;stroke:#c62828 !important;stroke-width:2px !important"
+                              x="-130" y="-99" width="260" height="198"></rect>
+                        <g class="label" style="color:black !important" transform="translate(-100, -84)">
+                            <rect></rect>
+                            <foreignObject width="200" height="168">
+                                <div style="color: black !important; display: table; white-space: break-spaces; line-height: 1.5; max-width: 200px; text-align: center; width: 200px;"
+                                     xmlns="http://www.w3.org/1999/xhtml">
+                                    <span style="color:black !important" class="nodeLabel">
+                                        <p>
+                                            <b>C-03: Data Granularity vs. Usability</b>
+                                            <br/>Backend has raw stats per topic/difficulty<br/>vs.<br/>User needs
+                                            immediate 'What to study?' insight
+                                        </p>
+                                    </span>
+                                </div>
+                            </foreignObject>
+                        </g>
+                    </g>
+                    <g class="node default conflict" id="flowchart-C04-3" transform="translate(1103, 132)">
+                        <rect class="basic label-container"
+                              style="fill:#ffcdd2 !important;stroke:#c62828 !important;stroke-width:2px !important"
+                              x="-130" y="-75" width="260" height="150"></rect>
+                        <g class="label" style="color:black !important" transform="translate(-100, -60)">
+                            <rect></rect>
+                            <foreignObject width="200" height="120">
+                                <div style="color: black !important; display: table; white-space: break-spaces; line-height: 1.5; max-width: 200px; text-align: center; width: 200px;"
+                                     xmlns="http://www.w3.org/1999/xhtml">
+                                    <span style="color:black !important" class="nodeLabel">
+                                        <p>
+                                            <b>C-04: Latency vs. Value</b>
+                                            <br/>External AI call adds processing time<br/>vs.<br/>User expects instant
+                                            results
+                                        </p>
+                                    </span>
+                                </div>
+                            </foreignObject>
+                        </g>
+                    </g>
+                    <g class="node default conflict" id="flowchart-C05-4" transform="translate(1413, 132)">
+                        <rect class="basic label-container"
+                              style="fill:#ffcdd2 !important;stroke:#c62828 !important;stroke-width:2px !important"
+                              x="-130" y="-99" width="260" height="198"></rect>
+                        <g class="label" style="color:black !important" transform="translate(-100, -84)">
+                            <rect></rect>
+                            <foreignObject width="200" height="168">
+                                <div style="color: black !important; display: table; white-space: break-spaces; line-height: 1.5; max-width: 200px; text-align: center; width: 200px;"
+                                     xmlns="http://www.w3.org/1999/xhtml">
+                                    <span style="color:black !important" class="nodeLabel">
+                                        <p>
+                                            <b>C-05: Freedom vs. Guidance</b>
+                                            <br/>User wants to choose any topic<br/>vs.<br/>System knows where the user
+                                            is failing
+                                        </p>
+                                    </span>
+                                </div>
+                            </foreignObject>
+                        </g>
+                    </g>
+                    <g class="node default solution" id="flowchart-D01-5" transform="translate(173, 454)">
+                        <rect class="basic label-container"
+                              style="fill:#c8e6c9 !important;stroke:#2e7d32 !important;stroke-width:2px !important"
+                              x="-130" y="-75" width="260" height="150"></rect>
+                        <g class="label" style="color:black !important" transform="translate(-100, -60)">
+                            <rect></rect>
+                            <foreignObject width="200" height="120">
+                                <div style="color: black !important; display: table; white-space: break-spaces; line-height: 1.5; max-width: 200px; text-align: center; width: 200px;"
+                                     xmlns="http://www.w3.org/1999/xhtml">
+                                    <span style="color:black !important" class="nodeLabel">
+                                        <p>
+                                            <b>R-01: 'Seen' Flag Logic</b>
+                                            <br/>DB query filters out IDs in 'seen_exercises'<br/>Ensures 2
+                                            distinct/fresh items per request
+                                        </p>
+                                    </span>
+                                </div>
+                            </foreignObject>
+                        </g>
+                    </g>
+                    <g class="node default solution" id="flowchart-D02-6" transform="translate(483, 454)">
+                        <rect class="basic label-container"
+                              style="fill:#c8e6c9 !important;stroke:#2e7d32 !important;stroke-width:2px !important"
+                              x="-130" y="-87" width="260" height="174"></rect>
+                        <g class="label" style="color:black !important" transform="translate(-100, -72)">
+                            <rect></rect>
+                            <foreignObject width="200" height="144">
+                                <div style="color: black !important; display: table; white-space: break-spaces; line-height: 1.5; max-width: 200px; text-align: center; width: 200px;"
+                                     xmlns="http://www.w3.org/1999/xhtml">
+                                    <span style="color:black !important" class="nodeLabel">
+                                        <p>
+                                            <b>R-02: Bundled Learning Object</b>
+                                            <br/>Backend automatically attaches 1 Medium Exercise<br/>+ 1 Medium Example
+                                            to every correction
+                                        </p>
+                                    </span>
+                                </div>
+                            </foreignObject>
+                        </g>
+                    </g>
+                    <g class="node default solution" id="flowchart-D03-7" transform="translate(793, 454)">
+                        <rect class="basic label-container"
+                              style="fill:#c8e6c9 !important;stroke:#2e7d32 !important;stroke-width:2px !important"
+                              x="-130" y="-87" width="260" height="174"></rect>
+                        <g class="label" style="color:black !important" transform="translate(-100, -72)">
+                            <rect></rect>
+                            <foreignObject width="200" height="144">
+                                <div style="color: black !important; display: table; white-space: break-spaces; line-height: 1.5; max-width: 200px; text-align: center; width: 200px;"
+                                     xmlns="http://www.w3.org/1999/xhtml">
+                                    <span style="color:black !important" class="nodeLabel">
+                                        <p>
+                                            <b>R-03: Weak Area Visualization</b>
+                                            <br/>Frontend calculates low success-rate topics<br/>and highlights them as
+                                            'Weak Areas'
+                                        </p>
+                                    </span>
+                                </div>
+                            </foreignObject>
+                        </g>
+                    </g>
+                    <g class="node default solution" id="flowchart-D04-8" transform="translate(1103, 454)">
+                        <rect class="basic label-container"
+                              style="fill:#c8e6c9 !important;stroke:#2e7d32 !important;stroke-width:2px !important"
+                              x="-130" y="-99" width="260" height="198"></rect>
+                        <g class="label" style="color:black !important" transform="translate(-100, -84)">
+                            <rect></rect>
+                            <foreignObject width="200" height="168">
+                                <div style="color: black !important; display: table; white-space: break-spaces; line-height: 1.5; max-width: 200px; text-align: center; width: 200px;"
+                                     xmlns="http://www.w3.org/1999/xhtml">
+                                    <span style="color:black !important" class="nodeLabel">
+                                        <p>
+                                            <b>R-04: Conditional Response</b>
+                                            <br/>If no error found: Skip DB fetch.<br/>If error found: Fetch content
+                                            while AI processes (Parallel)
+                                        </p>
+                                    </span>
+                                </div>
+                            </foreignObject>
+                        </g>
+                    </g>
+                    <g class="node default solution" id="flowchart-D05-9" transform="translate(1413, 454)">
+                        <rect class="basic label-container"
+                              style="fill:#c8e6c9 !important;stroke:#2e7d32 !important;stroke-width:2px !important"
+                              x="-130" y="-75" width="260" height="150"></rect>
+                        <g class="label" style="color:black !important" transform="translate(-100, -60)">
+                            <rect></rect>
+                            <foreignObject width="200" height="120">
+                                <div style="color: black !important; display: table; white-space: break-spaces; line-height: 1.5; max-width: 200px; text-align: center; width: 200px;"
+                                     xmlns="http://www.w3.org/1999/xhtml">
+                                    <span style="color:black !important" class="nodeLabel">
+                                        <p>
+                                            <b>R-05: Hybrid Navigation</b>
+                                            <br/>User retains dropdown choice (Freedom)<br/>but 'Weak Areas' are
+                                            visually flagged (Guidance)
+                                        </p>
+                                    </span>
+                                </div>
+                            </foreignObject>
+                        </g>
+                    </g>
+                    <g class="node default note" id="flowchart-N1-20" transform="translate(173, 679)">
+                        <rect class="basic label-container"
+                              style="fill:#fff9c4 !important;stroke:#fbc02d !important;stroke-dasharray:5 5 !important"
+                              x="-127.71875" y="-39" width="255.4375" height="78"></rect>
+                        <g class="label" style="color:black !important" transform="translate(-97.71875, -24)">
+                            <rect></rect>
+                            <foreignObject width="195.4375" height="48">
+                                <div style="color: black !important; display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"
+                                     xmlns="http://www.w3.org/1999/xhtml">
+                                    <span style="color:black !important" class="nodeLabel">
+                                        <p>Business Logic Point 2:<br/>'Exclude already requested'
+                                        </p>
+                                    </span>
+                                </div>
+                            </foreignObject>
+                        </g>
+                    </g>
+                    <g class="node default note" id="flowchart-N2-21" transform="translate(483, 679)">
+                        <rect class="basic label-container"
+                              style="fill:#fff9c4 !important;stroke:#fbc02d !important;stroke-dasharray:5 5 !important"
+                              x="-130" y="-51" width="260" height="102"></rect>
+                        <g class="label" style="color:black !important" transform="translate(-100, -36)">
+                            <rect></rect>
+                            <foreignObject width="200" height="72">
+                                <div style="color: black !important; display: table; white-space: break-spaces; line-height: 1.5; max-width: 200px; text-align: center; width: 200px;"
+                                     xmlns="http://www.w3.org/1999/xhtml">
+                                    <span style="color:black !important" class="nodeLabel">
+                                        <p>Business Logic Point 1:<br/>'Reads 1 med example + 1 med exercise'
+                                        </p>
+                                    </span>
+                                </div>
+                            </foreignObject>
+                        </g>
+                    </g>
+                    <g class="node default note" id="flowchart-N3-22" transform="translate(793, 679)">
+                        <rect class="basic label-container"
+                              style="fill:#fff9c4 !important;stroke:#fbc02d !important;stroke-dasharray:5 5 !important"
+                              x="-97.07292175292969" y="-39" width="194.14584350585938" height="78"></rect>
+                        <g class="label" style="color:black !important" transform="translate(-67.07292175292969, -24)">
+                            <rect></rect>
+                            <foreignObject width="134.14584350585938" height="48">
+                                <div style="color: black !important; display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"
+                                     xmlns="http://www.w3.org/1999/xhtml">
+                                    <span style="color:black !important" class="nodeLabel">
+                                        <p>User Requirement:<br/>'Show weak area'
+                                        </p>
+                                    </span>
+                                </div>
+                            </foreignObject>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
